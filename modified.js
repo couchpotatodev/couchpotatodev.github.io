@@ -28,8 +28,5 @@ function GetTime(){
 
   document.write ("Last updated: ")
   document.write (lastModified() + "  " + GetTime() );
-
- // document.write (" [D M Y 24 Hour Clock]")
-
-document.write ("");
+  //document.write ("");
 
