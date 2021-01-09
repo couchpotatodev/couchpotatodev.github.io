@@ -110,12 +110,17 @@ a:hover {
 .content-links {
   float: left;
   padding-top: 3em;
-  margin-left: 2em;
+  margin-left: 20%;
 }
 
 .list {
+  padding-top: 7em;
+  margin-left: 30%;
+  margin-bottom: 4em;
+}
+
+.list::after {
+  content: "";
   display: block;
   clear: both;
-  margin-left: 4em;
-  margin-top: -3em;
 }

@@ -17,6 +17,7 @@ header, footer{
 
 #content-wrap{
     padding-bottom: 5rem; 
+
 }
 
 footer {
@@ -45,6 +46,7 @@ h1,p, header {
 }
 
 a{
+  
     color: white;;
     font-weight: bold;
     &:hover{
@@ -72,7 +74,6 @@ a{
 }
 
 
-
 .content-links::before{
     content: "";
     display:block;
@@ -83,13 +84,21 @@ a{
 .content-links{
   float:left;
   padding-top:3em;
-  margin-left:2em;
+  margin-left:20%;
 }
 
 .list{
-  
+    padding-top:7em;
+    margin-left: 30%;
+    margin-bottom: 4em;
+}
+
+.list::after{
+  content: "";
   display:block;
   clear:both;
-  margin-left:4em;
-  margin-top:-3em;
-}
+   
+} 
+
+
+
