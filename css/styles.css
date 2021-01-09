@@ -25,15 +25,6 @@ li {
   list-style: none;
 }
 
-/*
-.wrapper{
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box;
-}
-*/
 header, footer {
   background-color: #032f3e;
   height: 8.8rem;
