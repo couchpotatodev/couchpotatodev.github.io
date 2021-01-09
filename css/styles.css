@@ -47,7 +47,7 @@ header, footer {
 }
 
 #content-wrap {
-  padding-bottom: 5rem;
+  padding-bottom: 25rem;
 }
 
 footer {
@@ -101,7 +101,7 @@ a:hover {
   margin-right: 10%;
 }
 
-.content-links::before {
+.me::after {
   content: "";
   display: block;
   clear: both;
@@ -114,9 +114,15 @@ a:hover {
 }
 
 .list {
-  padding-top: 7em;
-  margin-left: 30%;
-  margin-bottom: 4em;
+  float: left;
+  padding-top: 1.5em;
+  margin-left: 35%;
+}
+
+.content-links:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .list::after {
@@ -124,3 +130,37 @@ a:hover {
   display: block;
   clear: both;
 }
+
+/*  
+.content-links::before{
+    content: "";
+    display:block;
+    clear:both;
+}
+
+
+.list::before{
+    content: "";
+    display:block;
+    clear:both;
+} 
+
+
+.content-links{
+  float:left;
+  padding-top:3em;
+  margin-left:20%;
+}
+
+.list{
+    padding-top:7em;
+    margin-left: 30%;
+    margin-bottom: 4em;
+}
+
+.list::after{
+  content: "";
+  display:block;
+  clear:both;
+
+} */

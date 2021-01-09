@@ -16,7 +16,7 @@ header, footer{
 }
 
 #content-wrap{
-    padding-bottom: 5rem; 
+    padding-bottom: 25rem; 
 
 }
 
@@ -73,12 +73,52 @@ a{
     margin-right:10%;
 }
 
+.me::after{
+    content: "";
+    display:block;
+    clear:both;
+}
 
+
+.content-links{
+    float:left;
+    padding-top:3em;
+    margin-left:20%;
+  }
+
+.list{
+    float:left;
+    padding-top:1.5em;
+    margin-left:35%;
+}
+
+.content-links:after{
+    content: "";
+    display:block;
+    clear:both;
+}
+
+.list::after{
+    content: "";
+    display:block;
+    clear:both;
+}
+
+
+
+/*  
 .content-links::before{
     content: "";
     display:block;
     clear:both;
 }
+
+
+.list::before{
+    content: "";
+    display:block;
+    clear:both;
+} 
 
 
 .content-links{
@@ -98,7 +138,7 @@ a{
   display:block;
   clear:both;
    
-} 
+} */
 
 
 
