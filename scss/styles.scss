@@ -1,2 +1,95 @@
 @import "reset";
 @import "variables";
+
+
+header, footer{
+    background-color: $darkBlue;
+    height: 8.8rem;
+    width: 100%;
+   
+}
+
+#page-container{
+    background-color: $lightGray;
+    position: relative;
+    min-height: 100%;
+}
+
+#content-wrap{
+    padding-bottom: 5rem; 
+}
+
+footer {
+  position:absolute;
+
+  }
+
+h1,p, header {
+    margin:0 auto;
+    padding:0;
+}
+
+.name{
+    text-align:center;
+    margin-top:0;
+    padding-top: .5em;
+    font-size: 2.5em;
+    color:white;
+}
+
+.copyright {
+   text-align:center;
+   padding-top:1em;
+   padding-bottom: 0;
+   color:white;
+}
+
+a{
+    color: white;;
+    font-weight: bold;
+    &:hover{
+      color: black;
+    }
+  }
+
+.list a{
+    color:black;
+    &:hover{
+        color: $darkBlue;
+      }
+}
+
+.dateModified{
+    text-align:center;
+    padding-bottom: 1em;
+    color:white;
+}
+
+.me{
+    float:right;
+    padding-right: 1em;
+    margin-right:10%;
+}
+
+
+
+.content-links::before{
+    content: "";
+    display:block;
+    clear:both;
+}
+
+
+.content-links{
+  float:left;
+  padding-top:3em;
+  margin-left:2em;
+}
+
+.list{
+  
+  display:block;
+  clear:both;
+  margin-left:4em;
+  margin-top:-3em;
+}
