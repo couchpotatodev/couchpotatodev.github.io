@@ -1,34 +1,107 @@
 @import "reset";
 @import "variables";
+@import "medium.scss";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Vollkorn:ital,wght@1,900&display=swap');
 
+
+
+body{
+//font-family: 'Vollkorn', 'Lato', serif;
+background: /*#f8f9fb;*/ $lightGray;
+}
 
 header, footer{
     background-color: $darkBlue;
     height: 8.8rem;
     width: 100%;
-   
+    font-family: 'Vollkorn', serif;
 }
 
 #page-container{
-    background-color: $lightGray;
+   /* background-color: $lightGray;*/
     position: relative;
     min-height: 100%;
 }
 
 #content-wrap{
-    padding-bottom: 40rem; 
+    padding-bottom: 20rem; //previously 40em
 
 }
 
-footer {
-  position:absolute;
+.name{
+    text-align:center;
+    margin-top:0;
+    padding-top: .5em;
+    font-size: 2.5em;
+    color:white;
+  
+}
 
+.copyright {
+    text-align:center;
+    padding-top:1em;
+    padding-bottom: 0;
+    color:white;
+    font-family: 'Lato', serif;
+ }
+
+ .dateModified{
+    text-align:center;
+    padding-bottom: 1em;
+    color:white;
+    font-family: 'Lato', serif;
+}
+.content-links{
+    //float:left;
+     text-align: center;
+    padding-top:3em;
+    //margin-left:20%;
+    font-family: 'Vollkorn', serif;
   }
+
+.list{
+    text-align: center;
+    list-style-type:none;
+    font-family: 'Lato', serif;
+}
+
+.list a{
+    color:black;
+    font-style: serif;
+    &:hover{
+        color:rgb(70, 70, 2);
+      }
+}
+
+.me{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -2em;
+}
+ 
+footer a {
+  color:white;
+  &:hover{
+    color:rgb(70, 70, 2);
+  }
+}
+
+/*
+footer {
+    position:absolute;
+  
+    }
 
 h1,p, header {
     margin:0 auto;
     padding:0;
+   
 }
+
+
+
+
 
 .name{
     text-align:center;
@@ -67,19 +140,6 @@ a{
     color:white;
 }
 
-.me{
-    float:right;
-    padding-right: 1em;
-    margin-right:10%;
-}
-
-.me::after{
-    content: "";
-    display:block;
-    clear:both;
-}
-
-
 .content-links{
     float:left;
     padding-top:3em;
@@ -106,3 +166,4 @@ a{
 }
 
 
+*/

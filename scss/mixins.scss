@@ -1,6 +1,13 @@
-@mixin clearFix{
+/*@mixin clearFix{
       content: "";
       display: block;
       clear: both;
     }
-  
+  */
+  @mixin clearFix{
+      &:after{
+        content: "";
+        display: block;
+        clear: both;
+      }
+    } 

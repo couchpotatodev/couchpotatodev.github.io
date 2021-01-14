@@ -1,0 +1,12 @@
+@media screen and (min-width: 32.5em) {
+  .me {
+  float: right;
+  padding-right: 1em;
+  margin-right: 10%;
+ }
+
+ .list{
+  margin-top: 4em;
+
+ }
+}
