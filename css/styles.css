@@ -408,7 +408,7 @@ header, footer {
 
 .list a {
   color: black;
-  font-style: serif;
+  font-family: serif;
 }
 .list a:hover {
   color: #464602;
