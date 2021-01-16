@@ -51,6 +51,10 @@ h1{
   margin-top:0;
 }
 
+.container1, .container2, .container3{
+    background-color: #032f3e;
+}
+
 
 h3 {
    font-weight: bolder;
