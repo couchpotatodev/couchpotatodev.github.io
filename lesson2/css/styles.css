@@ -71,7 +71,6 @@ h3 {
 h4{
    margin:0;
    padding:10px;
-   /*background-color: #032f3e; */
    color:white;
   
 }
@@ -102,7 +101,6 @@ section a:hover{
 }
 
 section p{
-   /* background-color:  #032f3e;*/
     margin:0px 0px 10px;
     padding-bottom:10px;
     color:black;

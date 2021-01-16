@@ -6,8 +6,7 @@
 
 
 body{
-//font-family: 'Vollkorn', 'Lato', serif;
-background: /*#f8f9fb;*/ $lightGray;
+background: $lightGray;
 }
 
 header, footer{
@@ -18,14 +17,12 @@ header, footer{
 }
 
 #page-container{
-   /* background-color: $lightGray;*/
     position: relative;
     min-height: 100%;
 }
 
 #content-wrap{
-    padding-bottom: 20rem; //previously 40em
-
+    padding-bottom: 20rem; 
 }
 
 .name{
@@ -52,10 +49,8 @@ header, footer{
     font-family: 'Lato', serif;
 }
 .content-links{
-    //float:left;
-     text-align: center;
+    text-align: center;
     padding-top:3em;
-    //margin-left:20%;
     font-family: 'Vollkorn', serif;
   }
 
@@ -83,9 +78,7 @@ header, footer{
   padding: 0;
   box-shadow: 5px 5px 5px #999;
   max-width: 100%;
-  /*border: 1px solid #333;
-  box-shadow: 0 0 10px #000;*/
-}
+ }
  
 footer a {
   color:white;
