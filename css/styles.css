@@ -362,7 +362,6 @@ header, footer {
 }
 
 #page-container {
-  /* background-color: $lightGray;*/
   position: relative;
   min-height: 100%;
 }
@@ -423,8 +422,6 @@ header, footer {
   padding: 0;
   box-shadow: 5px 5px 5px #999;
   max-width: 100%;
-  /*border: 1px solid #333;
-  box-shadow: 0 0 10px #000;*/
 }
 
 footer a {
