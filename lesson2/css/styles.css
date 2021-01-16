@@ -59,6 +59,9 @@ h3 {
    padding:10px;
    color:white;
    background-color: #034d66;
+   border-color: none;
+   border-style: none;
+   border: none;
 }
 
 
@@ -68,6 +71,7 @@ h4{
    padding:10px;
    background-color: #032f3e;
    color:white;
+   border: none;
 }
 
 .section1p,.section2p,.section3p{

@@ -78,8 +78,13 @@ header, footer{
   margin-left: auto;
   margin-right: auto;
   margin-top: -2em;
-  border: 1px solid #333;
-  box-shadow: 0 0 10px #000;
+ 
+  border: 1px solid #ccc;
+  padding: 0;
+  box-shadow: 5px 5px 5px #999;
+  max-width: 100%;
+  /*border: 1px solid #333;
+  box-shadow: 0 0 10px #000;*/
 }
  
 footer a {
