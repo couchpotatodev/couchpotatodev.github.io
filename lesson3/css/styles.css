@@ -11,6 +11,11 @@ body {
     width: 80px;
     margin-left: 10%;
 }
+.color{
+    width:90%;
+    display:block;
+    margin:0 auto;
+}
 
 .menu li {
     list-style-type: none;
