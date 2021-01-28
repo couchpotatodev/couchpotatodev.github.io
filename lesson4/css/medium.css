@@ -11,6 +11,7 @@
        .menu a{
            text-align: center;
            color:white;
+           
        }
 
      .menu li:first-child{
@@ -19,10 +20,44 @@
        margin: 0 auto;
     }
    
+    .menu li:nth-child(3) {
+      background-color: #48648b;    
+         
+   }
+   
+   .menu li:nth-child(3):hover {
+    background-color: #48648b;    
+     
+ }
+ .menu li:nth-child(2):hover {
+  background-color: #1D3557;    
+   }
+ 
+   .menu li:nth-child(7):hover {
+    background-color: #1D3557;
+     
+ } 
+
+  
+
+
+
     main,footer{
         max-width: 80%;
        margin:0 auto;
     }
      
-   
+    .motto{
+      font-size: 1.3em;
+  }
+
+  .menu li:hover {
+    font:black;
+    background-color:white;
+    font-weight: 500;
+ 
+}  
+
+
+
    }
