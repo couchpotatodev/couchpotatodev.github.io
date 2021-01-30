@@ -24,12 +24,23 @@ header{
 
 footer{
     background-color:#457B9D;
-    padding:0.5em;
+    padding:0.5em 0;
     color:white;
     text-align:center;
     font-family: 'Lato', sans-serif;
 }
 
+.copyright{
+    padding:0;
+    margin:0;
+} 
+
+/*
+.outputDiv{
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+}
+*/
 nav{
     background-color: #1D3557;
     margin: 0 auto;
