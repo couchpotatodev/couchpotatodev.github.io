@@ -1,10 +1,11 @@
 @media only screen and (min-width: 64em){
-    
     .motto{
-        /*background-color: red; */
+      
         font-size: 1.5em;
     }
     
-    
+    .menu a{
+      font-size: 1.1em;
+    }
 
    }

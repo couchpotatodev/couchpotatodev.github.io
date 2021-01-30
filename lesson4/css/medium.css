@@ -11,7 +11,7 @@
        .menu a{
            text-align: center;
            color:white;
-           
+           font-size: .75em;
        }
 
      .menu li:first-child{
@@ -19,45 +19,28 @@
        padding:0.5em;   
        margin: 0 auto;
     }
-   
-    .menu li:nth-child(3) {
-      background-color: #48648b;    
-         
-   }
-   
-   .menu li:nth-child(3):hover {
-    background-color: #48648b;    
-     
- }
- .menu li:nth-child(2):hover {
-  background-color: #1D3557;    
-   }
- 
-   .menu li:nth-child(7):hover {
-    background-color: #1D3557;
-     
- } 
 
+ .sunshine{
+  font-size: 2em;
+}
   
+.icon{
+  width:130px;
+}
 
-
-
-    main,footer{
-        max-width: 80%;
-       margin:0 auto;
+main,footer{
+     max-width: 80%;
+     margin:0 auto;
     }
      
-    .motto{
+.motto{
       font-size: 1.3em;
   }
 
-  .menu li:hover {
+.menu li:hover {
     font:black;
     background-color:white;
-    font-weight: 500;
- 
+    font-weight: 500; 
 }  
 
-
-
-   }
+}
