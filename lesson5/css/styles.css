@@ -18,7 +18,61 @@
     font-size: 1.5em;
 }
 
+.block1{
+    margin: 10px auto;
+    position:relative;
+}  
 
+.prestonImage{
+    width:100%;
+   } 
+
+  .summary{
+    background-color:rgba(255,210,63,.8);
+    width:60%;
+    height:150px;
+    position: absolute;
+	top: 80px;
+    left: 20px;
+    padding-left:5%;
+    color: black;
+ }
+
+.summary h4{
+    margin:0;
+}
+
+ .summary p{
+  
+   padding:0;
+   margin:0 auto;
+   line-height: 5px;
+    }
+ 
+
+
+
+ 
+
+
+
+
+/*
+.block1{
+    position:relative;
+    background-color: yellow; 
+}
+
+.prestonImage{
+    width:100%;
+    position:absolute;
+}
+
+.summary{
+  position:absolute; 
+
+}
+*/
 .icon{
     width:110px;
 }
@@ -38,6 +92,7 @@ footer{
     color:white;
     text-align:center;
     font-family: 'Lato', sans-serif;    
+ 
 }
 
 .copyright{
