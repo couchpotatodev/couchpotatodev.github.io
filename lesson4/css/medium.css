@@ -42,7 +42,7 @@ footer{
   }
 
 .menu li:hover {
-    font:black;
+    color:black;
     background-color:white;
     font-weight: 500; 
 }  
