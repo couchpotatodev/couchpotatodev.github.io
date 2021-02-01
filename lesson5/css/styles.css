@@ -8,6 +8,17 @@
     font-size: 1.1em;
 }
 
+
+#banner{
+    background-color: #E63946;
+    color:white;
+    padding:10px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
 .icon{
     width:110px;
 }
