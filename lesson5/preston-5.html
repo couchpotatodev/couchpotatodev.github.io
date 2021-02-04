@@ -41,18 +41,24 @@
    <div class="block1">
         <img class="prestonImage" src="../lesson5/images/preston.jpg" alt="photo of Idaho"><br>    
         <div class="summary">
-            <h4>Weather Summary</h4><br>
-            <p>Currently:</p><br>
+          <!--  <h4>Weather Summary</h4><br>
+           <p>Currently:</p><br>
             <p>High:</p><br>
             <p>Wind Chill:</p><br>
             <p>Humidity:</p><br>
-            <p>Wind Speed</p><br>
+            <p>Wind Speed</p><br> -->
+            <a class="weatherwidget-io" href="https://forecast7.com/en/42d10n111d88/preston/?unit=us" data-label_1="Current Weather" data-font="Arial" data-icons="Climacons Animated" data-mode="Current" data-days="5" data-theme="pure" data-basecolor="rgba(255, 210, 63,0.5)" >Current Weather</a>
+            <script>
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+            </script>
+            
         </div>
+
    </div>  <!--end of block1-->
    <div class="block2"> 
   
    <h4>5 Day Forecast</h4>
-   <!--<a class="weatherwidget-io" href="https://forecast7.com/en/42d10n111d88/preston/?unit=us" data-font="Arial" data-mode="Forecast" data-days="5" data-theme="pure" >PRESTON WEATHER</a> -->
+  
    <a class="weatherwidget-io" href="https://forecast7.com/en/42d10n111d88/preston/?unit=us" data-font="Lato" data-icons="Climacons Animated" data-mode="Forecast" data-days="5" data-theme="pure" >PRESTON WEATHER</a>
   </div> <!--end of block2-->
   <div class="block3">

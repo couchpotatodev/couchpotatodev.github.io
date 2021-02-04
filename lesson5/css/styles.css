@@ -29,7 +29,8 @@
    } 
 
   .summary{
-    background-color:rgba(255,210,63,.8);
+    /*background-color:rgba(126, 117, 86, 0.8);
+    background-color: rgba(255, 210, 63,0.5);*/
     width:60%;
     height:150px;
     position: absolute;
