@@ -34,8 +34,18 @@ main,footer{
     }
 
 
- 
+ .block2, .block4{
+      display:block;
+  }
 
+.block4 p{
+  text-align: center;
+}  
+
+.block5 {
+  text-align: center;
+
+}
 
 .motto{
       font-size: 1.3em;
