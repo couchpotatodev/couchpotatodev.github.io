@@ -23,7 +23,14 @@
  </header>
  <nav>
     <ul class="menu">
-      <li><a href="#" onclick="toggleMenu()" id="first">&#9776;Menu</a></li>
+      <li><div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        
+      </div> <!--end of container-->
+    <!--  <a href="#" onclick="toggleMenu()" id="first">&#9776;Menu</a> --></li>
+         
       <li><a href="#">Home</a></li>    
       <li><a href="#" class="active">Preston</a></li>
       <li><a href="#">Soda Springs</a></li>
@@ -33,6 +40,7 @@
    </ul>
   </nav>
 <main>
+  
     <h2 class="preston">Preston, Idaho</h2>
    <!-- <div class="contentbox">Hero with weather summary</div>
         <div class="contentbox forecast">5 day forecast</div>
@@ -90,10 +98,17 @@
  <div id="outputDiv"></div>
  <script src="../lesson5/js/toggleMenu.js"></script> 
  <script src="../lesson5/js/datefunction.js"></script> 
- <script src="../lesson5/js/banner.js"></script> 
+ <script src="../lesson5/js/banner.js"></script>
+ <script src="../lesson5/js/genX.js"></script> 
  <script>
   !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
   </script>
+  <!--<script>
+    function myFunction(x) {
+      x.classList.toggle("change");
+      toggleMenu();
+   
+    </script> }-->
 </footer>         
 
 </body>
