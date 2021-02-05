@@ -32,14 +32,9 @@
     margin-top: 4em;
 }  
  
-/*
-img.prestonImage{
-  margin-bottom: 30px;
-} */
 
   .summary{
-    /*background-color:rgba(126, 117, 86, 0.8);
-    background-color: rgba(255, 210, 63,0.5);*/
+    
     width:60%;
     height:150px;
     position: absolute;
@@ -103,7 +98,7 @@ img.prestonImage{
 
 .block5 img{
   width:50px;
-  /*margin-left:10%; */
+
 }   
 
 .social{
@@ -126,22 +121,6 @@ img.prestonImage{
 }
 
 
-/*
-.block1{
-    position:relative;
-    background-color: yellow; 
-}
-
-.prestonImage{
-    width:100%;
-    position:absolute;
-}
-
-.summary{
-  position:absolute; 
-
-}
-*/
 .icon{
     width:110px;
 }
@@ -186,7 +165,7 @@ nav{
     letter-spacing: 3px;
     font-size: 1.8em;
 }
-
+/*
 .contentbox{
     display:block;
     margin:10px  auto;
@@ -196,7 +175,7 @@ nav{
     color:#444;
     font-family: 'Lato', sans-serif;
 }
-
+*/
 .preston{
     text-align: center;
     margin-top:0;
@@ -251,13 +230,7 @@ main{
     display: block;
     background-color: #1D3557;  
 }
-/*
-.menu li:first-child{
-    display: inline;
-    padding:0.5em;   
-    margin: 0 auto;
- }
-*/
+
 
 .container {
     display: inline-block;
