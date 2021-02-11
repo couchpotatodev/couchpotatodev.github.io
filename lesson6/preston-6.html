@@ -4,17 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Preston, Idaho</title>
-  <link rel="shortcut icon" type="image/jpg" href="../lesson5/images/weatherlogo.ico"/>
+  <link rel="shortcut icon" type="image/jpg" href="../lesson6/images/weatherlogo.ico"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
-  <link href="../lesson5/css/styles.css" type="text/css" rel="stylesheet"/> 
-  <link href="../lesson5/css/medium.css" type="text/css" rel="stylesheet"/>
-  <link href="../lesson5/css/large.css" type="text/css" rel="stylesheet"/>
+  <link href="../lesson6/css/styles.css" type="text/css" rel="stylesheet"/> 
+  <link href="../lesson6/css/medium.css" type="text/css" rel="stylesheet"/>
+  <link href="../lesson6/css/large.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
   <div id="banner">Saturday = Preston Pancakes in the Park! <br> 9:00 a.m. Saturday at the city park pavilion.</div>  
   <header>
-    <img class="icon" src="../lesson5/images/weatherlogo.svg" alt="photo of sun and rain"><br>
+    <img class="icon" src="../lesson6/images/weatherlogo.svg" alt="photo of sun and rain"><br>
     
     <section>
     <h1 class="sunshine">Sunshine after the rain</h1>
@@ -44,7 +44,13 @@
     <h2 class="preston">Preston, Idaho</h2>
    
    <div class="block1">
-        <img class="prestonImage" src="../lesson6/images/preston.jpg" alt="photo of Idaho"><br>    
+       <!-- <img class="prestonImage" src="../lesson6/images/preston.jpg" alt="photo of Idaho"><br>    -->
+        <picture>
+          <source srcset="../lesson6/images/small320.jpg" media="(min-width:280px) and (max-width:639px)">
+          <source srcset="../lesson6/images/medium640.jpg" media="(min-width:640px) and (max-width:1023px">  
+          <img class="prestonImage" src="../lesson6/images/large1024.jpg" alt="hero image - photo of Idaho"><br>
+        </picture>
+        
         <div class="summary">
           <!--  <h4>Weather Summary</h4><br>
            <p>Currently:</p><br>
@@ -52,7 +58,7 @@
             <p>Wind Chill:</p><br>
             <p>Humidity:</p><br>
             <p>Wind Speed</p><br> -->
-            <a class="weatherwidget-io" href="https://forecast7.com/en/42d10n111d88/preston/?unit=us" data-label_1="Current Weather" data-font="Arial" data-icons="Climacons Animated" data-mode="Current" data-days="5" data-theme="pure" data-basecolor="rgba(255, 210, 63,0.5)" >Current Weather</a>
+         <!--   <a class="weatherwidget-io" href="https://forecast7.com/en/42d10n111d88/preston/?unit=us" data-label_1="Current Weather" data-font="Arial" data-icons="Climacons Animated" data-mode="Current" data-days="5" data-theme="pure" data-basecolor="rgba(255, 210, 63,0.5)" >Current Weather</a> -->
           
         </div>
 
