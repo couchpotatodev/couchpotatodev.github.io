@@ -1,4 +1,4 @@
-document.getElementsByClassName("summary").onload = function() {doInputOutput()};
+//document.getElementsByClassName("summary").onload = function() {doInputOutput()};
 
 function doInputOutput() {
     var val1 = parseFloat(document.getElementById("temp").innerHTML);
