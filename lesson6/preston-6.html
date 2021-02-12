@@ -11,7 +11,7 @@
   <link href="../lesson6/css/medium.css" type="text/css" rel="stylesheet"/>
   <link href="../lesson6/css/large.css" type="text/css" rel="stylesheet"/>
 </head>
-<body>
+<body  onload="doInputOutput()">
   <div id="banner">Saturday = Preston Pancakes in the Park! <br> 9:00 a.m. Saturday at the city park pavilion.</div>  
   <header>
     <img class="icon" src="../lesson6/images/weatherlogo.svg" alt="photo of sun and rain"><br>
@@ -52,12 +52,14 @@
         </picture>
         
         <div class="summary">
-          <!--  <h4>Weather Summary</h4><br>
-           <p>Currently:</p><br>
-            <p>High:</p><br>
-            <p>Wind Chill:</p><br>
-            <p>Humidity:</p><br>
-            <p>Wind Speed</p><br> -->
+           <h4>Weather Summary</h4><br>
+           Currently: xxxx<br>
+           Temperature: <span id="temp">40 &#8457;</span><br>
+           Wind Speed (mph): <span id="windSpeed">10</span><br>
+           Humidity: xx<br>
+            <span id="windChillheading">Wind Chill:</span> <span id="windChill"></span><br>
+           
+            
          <!--   <a class="weatherwidget-io" href="https://forecast7.com/en/42d10n111d88/preston/?unit=us" data-label_1="Current Weather" data-font="Arial" data-icons="Climacons Animated" data-mode="Current" data-days="5" data-theme="pure" data-basecolor="rgba(255, 210, 63,0.5)" >Current Weather</a> -->
           
         </div>
@@ -102,7 +104,7 @@
  <script src="../lesson6/js/banner.js"></script>
  <script src="../lesson6/js/genX.js"></script> 
  <script src="../lesson6/js/weather.js"></script> 
- 
+ <script src="../lesson6/js/windchill.js"></script> 
 </footer>         
 
 </body>
