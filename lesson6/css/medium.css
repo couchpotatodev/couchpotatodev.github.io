@@ -6,12 +6,13 @@
       .menu li{
         display: block;
         flex: 1 1 auto;
+       
        }
 
        .menu a{
            text-align: center;
            color:white;
-         
+           font-size: .9em;
        }
 
      .menu li:first-child{
