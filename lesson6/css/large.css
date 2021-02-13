@@ -20,10 +20,7 @@
       
     } 
 
-    .map{
-      width:120%;
-      
-    } 
+    
 
 
   .container45{
@@ -36,8 +33,13 @@
 
   .block5 {
     flex-direction: column-reverse;
-    justify-content: space-evenly;
+    /*justify-content: space-evenly;*/
     flex: 1 1 auto;
   }
 
+
+  .map{
+    width:120%;
+    padding-left:10%;
+  } 
 }

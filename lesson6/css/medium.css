@@ -44,7 +44,10 @@
   display:block;
   margin:0 auto;
 }
-
+.map{
+  width:85%;
+  /*padding-left:10%;*/
+} 
 
 .block2 h4{
   margin-left: 5%;
