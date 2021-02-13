@@ -26,6 +26,26 @@
   font-family: 'Montserrat', sans-serif;
 }
   
+.summary{
+  background-color: rgba(255,210,63,.7); 
+  width:200px;
+  height:150px;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  padding-top: 1%;
+  padding-left:10px;
+ 
+  
+}
+
+.prestonImage2{
+  width:85%;
+  display:block;
+  margin:0 auto;
+}
+
+
 .block2 h4{
   margin-left: 5%;
 }

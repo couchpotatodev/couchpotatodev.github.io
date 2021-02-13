@@ -7,11 +7,31 @@
     .menu a{
       font-size: 1.1em;
     }
+ 
+   .preston{
+     text-align: left;
+     font-size: 2em;
+   }
+
+   .prestonImage2{
+    float: right;    
+    margin: 1%;
+    width:50%;  
+      
+    } 
+
+    .map{
+      width:120%;
+      
+    } 
+
 
   .container45{
+    clear:both;
     display:flex;
     /*flex: 1 1 auto; */
-    justify-content: space-evenly;
+    /*justify-content: center;*/
+    
   }
 
   .block5 {
