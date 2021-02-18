@@ -1,12 +1,24 @@
+img {
+  background: gray;
+  display: block;
+  margin: 10px auto;
+
+}
+
 h1{
-    text-align: center;
+  text-align: center;
+}
+
+
+img[data-src] {
+  filter: blur(2px);
+  
 }
 
 img{
-    display:block;
-    border:1px solid red;
-    margin:100px auto;
-    min-width: 50px;
-    min-height: 50px;
-    background-color: gray;
-}
+  transition: filter 2s;
+  filter: blur(0em);
+
+ }
+
+ 
