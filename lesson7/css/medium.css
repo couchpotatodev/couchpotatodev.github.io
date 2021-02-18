@@ -1,0 +1,101 @@
+@media only screen and (min-width: 640px){
+    .menu{
+      display: flex;
+      }
+   
+      .menu li{
+        display: block;
+        flex: 1 1 auto;
+       
+       }
+
+       .menu a{
+           text-align: center;
+           color:white;
+           font-size: .8em;
+       }
+
+     .menu li:first-child{
+       display: none;
+       padding:0.5em;   
+       margin: 0 auto;
+    }
+
+ .sunshine{
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+}
+  
+.summary{
+  background-color: rgba(255,210,63,.7); 
+  width:200px;
+  height:150px;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  padding-top: 1%;
+  padding-left:10px;
+ 
+  
+}
+
+.prestonImage2{
+  width:85%;
+  display:block;
+  margin:0 auto;
+}
+.map{
+  width:85%;
+  /*padding-left:10%;*/
+} 
+
+.block2 h4{
+  margin-left: 5%;
+}
+
+.icon{
+  width:130px;
+}
+
+main,footer{
+     max-width: 80%;
+     margin:0 auto;
+    }
+
+.block2 h4, .block3 h4 {
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ /*.block2, */.block4{
+      display:block;
+  }
+
+.block4 p{
+  text-align: center;
+}  
+
+.block4 a{
+  font-size: 1px;
+}
+
+.block5 {
+  text-align: center;
+
+}
+
+.motto{
+      font-size: 1.3em;
+  }
+
+footer{
+  border-radius: 8px;
+  }
+
+.menu li:hover {
+    color:black;
+    background-color:white;
+    font-weight: 500; 
+}  
+
+} /*end of media query*/
