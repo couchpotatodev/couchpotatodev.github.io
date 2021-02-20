@@ -7,11 +7,7 @@
     color:white;
     font-size: 1.1em;
 }
-
-h1{
-    text-align: center;
-
-}
+ 
 
 #banner{
     background-color: #E63946;
@@ -181,7 +177,7 @@ nav{
     font-size: 1.8em;
 }
 
-.preston,.gallery{
+.preston, .gallery{
     text-align: center;
     margin-top:0;
     padding:0.5em;
