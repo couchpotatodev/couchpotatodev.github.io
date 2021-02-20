@@ -1,0 +1,56 @@
+@media only screen and (min-width: 1024px){
+    .motto{
+      
+        font-size: 1.5em;
+    }
+    
+    .menu a{
+      font-size: 1.1em;
+    }
+ 
+   .preston{
+     text-align: left;
+     font-size: 2em;
+   }
+
+   .prestonImage2{
+    float: right;    
+    margin: 1%;
+    width:50%;  
+      
+    } 
+
+    
+
+
+  .container45{
+    clear:both;
+    display:flex;
+    /*flex: 1 1 auto; */
+    /*justify-content: center;*/
+    
+  }
+
+  .block5 {
+    flex-direction: column-reverse;
+   /* justify-content: space-evenly;*/
+    flex: 1 1 auto;
+  }
+
+
+  .map{
+    width:120%;
+    padding-left:10%;
+  } 
+
+  figcaption{
+    opacity:1;
+}   
+.containergallery{
+  grid-template-columns:1fr 1fr 1fr;
+}
+
+
+
+
+}/*end of media query*/
