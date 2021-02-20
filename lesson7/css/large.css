@@ -43,14 +43,18 @@
     padding-left:10%;
   } 
 
-  figcaption{
-    opacity:1;
-}   
 .containergallery{
   grid-template-columns:1fr 1fr 1fr;
 }
 
 
+.containergallery img{
+  box-shadow: 5px 5px 5px #999;
+}
+
+.containergallery img:hover{
+  box-shadow: 0 0 50px #333;
+} 
 
 
 }/*end of media query*/
