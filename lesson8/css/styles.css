@@ -30,7 +30,7 @@ thead tr:nth-child(1) {
 thead tr:nth-child(2) {
     background-color:#628ca6;
     color:white;
-
+    font-size: 1.2em;
 }   
 
 tfoot{
