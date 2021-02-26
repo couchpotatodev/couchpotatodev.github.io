@@ -258,12 +258,98 @@ main{
   }
 
 /*styles for stormcenter*/
-label{
-    display:block;
+
+.containerform{
+    width:95%;
+    /*background-color: #F1FAEE; */
+    background-color: yellow;
+    margin:0 auto;
+    padding:2%;
 }
 
-input{
-    width:50%;
+label{
+   display:block; 
+   line-height: 20px;
+ 
+}   
+
+input,#stormregion{
+    padding:10px;
+    height:44px;
+    margin-bottom: 40px;
+    width:90%;
+}
+
+
+textarea {
+  /*  font-size:12px; */
+    width:15em; 
+    padding:10px; 
+    margin-bottom:40px;
     height:44px;
 }
 
+#ratingvalue{
+  font-size: 1.3em;
+ margin-left:40%;
+ 
+}
+
+#rating{
+    margin-bottom:0;
+    width:90%;
+}
+
+.flexly{
+    margin-bottom:40px;
+    line-height: 1px;
+}
+
+#stormregion{
+    margin-bottom:40px;
+    color:#4f5665;
+}
+
+#stormdate{
+    color:#4f5665;
+}
+/*
+.dangerradio{
+    margin-bottom:40px;
+}
+*/
+.radiogroup input{
+    /*margin-top:-20px;*/
+    width:10%;
+    margin:0;
+    vertical-align: middle;
+ 
+}
+
+.radiogroup label{
+  font-size: 1.1em;
+  margin-left:10%;
+}
+
+ .radiogroup{
+    margin-bottom:40px;
+ }
+
+.submit{
+ text-align: center;
+ 
+}
+
+.submitbutton{
+  border-radius: 15px;  
+}
+
+
+
+.stormcenter{
+    text-align: center;
+    margin-top:0;
+    padding:0.5em;
+    color:#E63946;
+    font-family: 'Montserrat', sans-serif;
+}
