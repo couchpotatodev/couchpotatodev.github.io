@@ -1,0 +1,15 @@
+.thanks{
+  font-size: 2em;
+  text-align: center;
+  background-color: #F1FAEE; 
+  margin:0 auto;
+  padding:1em;
+}
+
+@media only screen and (min-width: 768px){
+.thanks{
+    width:80%; 
+}
+
+
+}  

@@ -261,8 +261,8 @@ main{
 
 .containerform{
     width:95%;
-    /*background-color: #F1FAEE; */
-    background-color: yellow;
+    background-color: #F1FAEE; 
+   /* background-color: yellow; */
     margin:0 auto;
     padding:2%;
 }
@@ -289,7 +289,8 @@ input /*,#stormregion*/{
 
 textarea {
   /*  font-size:12px; */
-    width:15em; 
+    /*width:15em; */
+    
     padding:10px; 
     margin-bottom:40px;
     height:44px;
@@ -297,8 +298,9 @@ textarea {
 
 #ratingvalue{
   font-size: 1.3em;
- margin:0 auto;
- 
+text-align: center; 
+display:block;
+ /*margin:0 auto; */
 }
 
 #rating{
@@ -320,14 +322,10 @@ textarea {
 #stormdate{
     color:#4f5665;
 }
-/*
-.dangerradio{
-    margin-bottom:40px;
-}
-*/
+
 .radiogroup input{
     /*margin-top:-20px;*/
-    width:10%;
+    width:30px;
     margin:0;
     vertical-align: middle;
   
@@ -340,6 +338,8 @@ textarea {
 
  .radiogroup{
     margin-bottom:40px;
+  /*  background-color:violet;*/
+    width:250px;
  }
 
 .submit{
