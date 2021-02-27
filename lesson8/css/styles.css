@@ -165,17 +165,7 @@ nav{
     letter-spacing: 3px;
     font-size: 1.8em;
 }
-/*
-.contentbox{
-    display:block;
-    margin:10px  auto;
-    border:1px dashed #000;
-    padding:15px;
-    background-color: #eee;
-    color:#444;
-    font-family: 'Lato', sans-serif;
-}
-*/
+
 .preston{
     text-align: center;
     margin-top:0;
@@ -260,26 +250,20 @@ main{
 /*styles for stormcenter*/
 
 .containerform{
-    width:95%;
-    background-color: #F1FAEE; 
-   /* background-color: yellow; */
+    width:90%;
+   /* background-color: #F1FAEE; */
+    background-color: yellow; 
     margin:0 auto;
     padding:2%;
 }
-
-label{
-   display:block; 
-   line-height: 20px;
  
-}   
-
-input /*,#stormregion*/{
-    padding:10px;
-    height:44px;
-  
-    width:90%;
+.stormcenter{
+    text-align: center;
+    margin-top:0;
+    padding:0.5em;
+    color:#E63946;
+   font-family: 'Montserrat', sans-serif;
 }
-
 
 
 #name,#stormregion,#email,#phone,#zip,#stormtype,#stormdate{
@@ -287,31 +271,25 @@ input /*,#stormregion*/{
 }
 
 
-textarea {
-  /*  font-size:12px; */
-    /*width:15em; */
-    
-    padding:10px; 
-    margin-bottom:40px;
-    height:44px;
-}
+.submitbutton{
+    border-radius: 15px;  
+    background-color: #a8dadc;
+  
+  } 
+  
+  
+.submit{
+   text-align: center;
+    width:200px;
+    margin:0 auto; 
+   }
 
-#ratingvalue{
-  font-size: 1.3em;
-text-align: center; 
-display:block;
- /*margin:0 auto; */
-}
-
-#rating{
-    margin-bottom:0;
-    width:90%;
-}
-
+   
 .flexly{
     margin-bottom:40px;
     line-height: 1px;
 }
+
 
 #stormregion{
     margin-bottom:40px;
@@ -319,54 +297,51 @@ display:block;
     
 }
 
+.radiogroup{
+    margin-bottom:40px;
+    width:200px;
+ }
+
+ 
+#rating{
+    margin-bottom:0;
+    width:95%;
+}
+
+
 #stormdate{
     color:#4f5665;
 }
 
+input{
+    padding:10px;
+    height:44px;
+    width:90%;
+}
+
 .radiogroup input{
-    /*margin-top:-20px;*/
     width:30px;
     margin:0;
     vertical-align: middle;
   
 }
 
-.radiogroup label{
-  font-size: 1.1em;
-  margin-left:10%;
-}
+textarea {   
+      padding:10px; 
+      margin-bottom:40px;
+      height:44px;
+      width:90%;
+  }
 
- .radiogroup{
-    margin-bottom:40px;
-  /*  background-color:violet;*/
-    width:250px;
- }
-
-.submit{
- text-align: center;
- width:250px;
- margin:0 auto;
- font-size: 1.2em;
-
-}
-
-.submitbutton{
-  border-radius: 15px;  
-  background-color: #a8dadc;
-}
+label{
+    display:block; 
+    line-height: 20px;
+   }   
 
 
 
-.stormcenter{
-    text-align: center;
-    margin-top:0;
-    padding:0.5em;
-    color:#E63946;
-  /*  font-family: 'Montserrat', sans-serif;*/
-}
-
-input,.stormtype,select,textarea{
-    width: 100%;
+  input,.stormtype,select,textarea{
+    width: 90%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -376,8 +351,7 @@ input,.stormtype,select,textarea{
     outline: none;
   }
 
- input:focus,.stormtype:focus,select:focus,textarea:focus {
+
+   input:focus,.stormtype:focus,select:focus,textarea:focus {
     border: 3px solid #555;
   } 
-
- 
