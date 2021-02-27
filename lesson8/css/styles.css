@@ -273,11 +273,17 @@ label{
  
 }   
 
-input,#stormregion{
+input /*,#stormregion*/{
     padding:10px;
     height:44px;
-    margin-bottom: 40px;
+  
     width:90%;
+}
+
+
+
+#name,#stormregion,#email,#phone,#zip,#stormtype,#stormdate{
+    margin-bottom: 40px;
 }
 
 
@@ -291,7 +297,7 @@ textarea {
 
 #ratingvalue{
   font-size: 1.3em;
- margin-left:40%;
+ margin:0 auto;
  
 }
 
@@ -308,6 +314,7 @@ textarea {
 #stormregion{
     margin-bottom:40px;
     color:#4f5665;
+    
 }
 
 #stormdate{
@@ -323,7 +330,7 @@ textarea {
     width:10%;
     margin:0;
     vertical-align: middle;
- 
+  
 }
 
 .radiogroup label{
@@ -337,11 +344,15 @@ textarea {
 
 .submit{
  text-align: center;
- 
+ width:250px;
+ margin:0 auto;
+ font-size: 1.2em;
+
 }
 
 .submitbutton{
   border-radius: 15px;  
+  background-color: #a8dadc;
 }
 
 
@@ -351,5 +362,22 @@ textarea {
     margin-top:0;
     padding:0.5em;
     color:#E63946;
-    font-family: 'Montserrat', sans-serif;
+  /*  font-family: 'Montserrat', sans-serif;*/
 }
+
+input,.stormtype,select,textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+
+ input:focus,.stormtype:focus,select:focus,textarea:focus {
+    border: 3px solid #555;
+  } 
+
+ 

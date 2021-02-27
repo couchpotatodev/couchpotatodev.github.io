@@ -41,17 +41,17 @@
     </nav>
     <h2 class="stormcenter">Storm Center</h2>   
 
-    <div class="containerform">
+   <div class="containerform">
 
     <form method="post" action="#" class="grid">
         <label for="name">Full Name:</label>
-        <input type="text" id="name" name="name" required pattern="[A-Za-z]{5}" title="Minimum 5 letters" placeholder="Enter full name (min. of 5 letters)">   
+        <input type="text" id="name" name="name" pattern="[A-Za-z]{5,}" title="Minimum 5 letters" placeholder="Enter full name (min. of 5 letters)" required>   
   
         <label for="email">Enter your email:</label>
-        <input type="email" id="email" name="email" placeholder="example@google.com">
+        <input type="email" id="email" name="email" placeholder="example@google.com" pattern="[^@\s]+@[^@\s]+" title="Invalid email address">
 
         <label for="phone">Enter your phone number:</label>
-        <input type="tel" id="phone" name="phone" title="Use numbers" placeholder="###-###-####"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>  
+        <input type="tel" id="phone" name="phone" title="Use numbers" placeholder="Enter 10 digit phone number"  pattern="[0-9]{10}" required>  
 
         <label for="zip">Zip Code:</label>
         <input type="text" id="zip" name="zip" placeholder="Enter zip code" pattern="(\d{5}([\-]\d{4})?)" required> <!--revise pattern and add placeholder-->
@@ -69,7 +69,7 @@
                 <option value="Tornado">
             </datalist>
         
-        <label class="flexly" for="rating">Rating: <!--&nbsp;&nbsp;&nbsp;-->
+        <label class="flexly" for="rating">Rating: 
 		<input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
 		<span id="ratingvalue">5</span>
 		</label>
@@ -95,38 +95,7 @@
                <option value="fishhaven">Fish Haven</option>
              </select>
 
-      <!-- <fieldset class="dangerradio">
-          <legend>User in-danger level:</legend>
-            
-            <input type="radio" id="yes" name="danger" value="yes" checked> 
-            <label for="male">Yes</label>
-            <input type="radio" id="no" name="danger" value="no">
-            <label for="female">No</label>
-            <input type="radio" id="maybe" name="danger" value="maybe"> 
-            <label for="maybe">Maybe</label>
-        </fieldset>  
-        
-        <div class="dangerradio"> 
-            <label class="container">One
-                <input type="checkbox" checked="checked">
-                <span class="checkmark"></span>
-              </label>
-              
-              <label class="container">Two
-                <input type="checkbox">
-                <span class="checkmark"></span>
-              </label>
-              
-              <label class="container">Three
-                <input type="checkbox">
-                <span class="checkmark"></span>
-              </label>
-              
-              <label class="container">Four
-                <input type="checkbox">
-                <span class="checkmark"></span>
-              </label>
-        </div> -->
+   
 
 
         <div class="radiogroup">
@@ -135,39 +104,41 @@
             <label>
                 <input type="radio" value="yes" name="danger" checked>
                 Yes
-                <span></span>
+          
             </label>
             <label>
                 <input type="radio" value="no" name="danger">
                 No
-                <span></span>
+          
             </label>
             <label>
                 <input type="radio" value="maybe" name="danger">
                 Maybe
-                <span></span>
+             
             </label>
         </fieldset>
-        </div>
+        </div> 
 
           
       
 
 
-    </form>
+    
     <label>Send us a message:</label>
     <textarea name="comment" placeholder="Type message here" form="commentform"></textarea>
-    <!--<textarea rows="4" cols="50" name="comment" form="commentform">Enter text here...</textarea>-->
+ 
     <div class="submit"> <input type="submit" class="submitbutton" value="Send storm details"></div>
+
+</form>  
 </div><!--end of containerform-->
-    <footer>
+<footer>
         <div class="copyright"> &copy; 2021 Sunshine after the rain | Modesto Imayaho Jr. | Philippines</div><br>
         <div id="outputDiv"></div>
         <script src="../lesson5/js/toggleMenu.js"></script> 
         <script src="../lesson5/js/datefunction.js"></script> 
         <script src="../lesson5/js/banner.js"></script>
         <script src="../lesson5/js/genX.js"></script> 
-     <!--   <script src="../lesson5/js/weather.js"></script> -->
+
         <script src="../lesson8/js/adjustrating.js"></script>
        </footer>         
 
