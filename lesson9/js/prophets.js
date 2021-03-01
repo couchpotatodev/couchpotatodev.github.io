@@ -12,8 +12,8 @@ fetch(requestURL)
     for (let i = 0; i < prophets.length; i++ ) {
         let card = document.createElement('section');
         let h2 = document.createElement('h2'); 
-        let birthday = document.createElement('birth');
-        let place = document.createElement('bplace');
+        let birthday = document.createElement('p');
+        let place = document.createElement('p');
         let linebreak = document.createElement("br");
         let linebreak2 = document.createElement("br");
         let image = document.createElement('img');
@@ -23,7 +23,7 @@ fetch(requestURL)
             place.textContent = 'Place of Birth:' + ' ' +prophets[i].birthplace;
             image.setAttribute('src', prophets[i].imageurl);
             image.setAttribute('alt', h2.textContent +  ' - ' + prophets[i].order);
-          //  image.setAttribute('loading','lazy');
+     
 
             card.appendChild(h2);
             card.appendChild(birthday);
