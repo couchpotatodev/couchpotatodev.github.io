@@ -25,18 +25,15 @@ img{
 
 p{
     margin:0;
-
  }
 
  h2{
     font-size: 1.5em;
     padding-top:.5em;
-
  }
 
  section{
     background-color:#ebf3e8; 
-  
  }
 
 footer{
@@ -56,7 +53,13 @@ footer{
 
 @media only screen and (min-width: 1024px){
 .cards{
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+img{
+  width:95%; 
+  height:70%;
+   
 }
 
 }  
