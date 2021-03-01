@@ -15,18 +15,21 @@ fetch(requestURL)
         let birthday = document.createElement('birth');
         let place = document.createElement('bplace');
         let linebreak = document.createElement("br");
+        let linebreak2 = document.createElement("br");
         let image = document.createElement('img');
 
             h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
             birthday.textContent = 'Date of Birth:' + ' ' + prophets[i].birthdate;
             place.textContent = 'Place of Birth:' + ' ' +prophets[i].birthplace;
             image.setAttribute('src', prophets[i].imageurl);
+            image.setAttribute('alt', h2.textContent +  ' - ' + prophets[i].order);
+          //  image.setAttribute('loading','lazy');
 
             card.appendChild(h2);
             card.appendChild(birthday);
             card.appendChild(linebreak);
             card.appendChild(place);
-            card.appendChild(linebreak);
+            card.appendChild(linebreak2);
             card.appendChild(image);
             
 
