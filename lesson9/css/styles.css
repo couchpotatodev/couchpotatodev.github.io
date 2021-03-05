@@ -165,7 +165,7 @@ nav{
     font-size: 1.8em;
 }
 
-.preston{
+.preston,.gallery,.homepage{
     text-align: center;
     margin-top:0;
     padding:0.5em;
@@ -358,4 +358,24 @@ label{
 
   /* home page styles*/
 
-  
+  .containercard{
+      padding:1em;
+  }
+
+  .articlehome p{
+     padding:1em;
+     margin-top: -20px;
+    
+  }
+ 
+
+  .articlehome h3{
+    margin-bottom: 0;
+    padding:1em;
+  }
+
+.containercard img{
+    display:block;
+    margin:0 auto;
+    width:260px;
+}
