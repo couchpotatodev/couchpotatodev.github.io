@@ -8,15 +8,39 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   
   
- <!-- <link href="../lesson9/css/prophets.css" type="text/css" rel="stylesheet"/> -->
+  <link href="../lesson9/css/styles.css" type="text/css" rel="stylesheet"/> 
  
 </head>
 <body>
-  
+  <div id="banner">Saturday = Preston Pancakes in the Park! <br> 9:00 a.m. Saturday at the city park pavilion.</div>  
     <header>
-        <h1>Welcome!</h1>
+      <img class="icon" src="../lesson5/images/weatherlogo.svg" alt="photo of sun and rain"><br>
+      
+      <section>
+      <h1 class="sunshine">Sunshine after the rain</h1>
+       <div class="motto">"Weather the storm"</div>
+    </section>  
      </header>
-      <main>
+      
+     <nav>
+      <ul class="menu">
+        <li><div class="container" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          
+        </div> </li>
+           
+        <li><a href="#" class="active">Home</a></li>    
+        <li><a href="../lesson5/preston-5.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+        <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+     </ul>
+    </nav>
+    <h2 class="homepage">WELCOME</h2>   
+     <main>
         
         <div class="cards"></div>
        
@@ -25,15 +49,22 @@
 
 
       </main>
-      <footer>
-        Modesto Imayaho Jr. | BYU-Idaho | WDD 230
-        
      
-      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-      <script src="../lesson7/js/webfont.js"></script> 
-
-      <script src="../lesson9/js/index.js"></script> 
       </footer>
+      
+      <footer>
+        <div class="copyright"> &copy; 2021 Sunshine after the rain | Modesto Imayaho Jr. | Philippines</div><br>
+        <div id="outputDiv"></div>
+        <script src="../lesson9/js/index.js"></script> 
+        <script src="../lesson5/js/toggleMenu.js"></script> 
+        <script src="../lesson5/js/datefunction.js"></script> 
+        <script src="../lesson5/js/banner.js"></script>
+        <script src="../lesson5/js/genX.js"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        
+        <script src="../lesson7/js/webfont.js"></script> 
+       </footer>   
+
 
 </body>
 </html>
