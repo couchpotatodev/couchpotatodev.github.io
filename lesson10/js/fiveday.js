@@ -14,20 +14,11 @@ fetch(apiURL)
     const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[0].weather[0].icon + '.png'; 
     const desc = jsObject.list[0].weather[0].description; 
 
-    // let tempF =   parseFloat(document.getElementById("temp").innerHTML);
-  //   let speed= parseFloat(document.getElementById("windSpeed").innerHTML);
-
-    
 
    document.getElementById('imagesrc').textContent = imagesrc; 
    document.getElementById('icon').setAttribute('src', imagesrc);
    document.getElementById('icon').setAttribute('alt', desc);
 
-
-   function windChill(tempF,speed) {
-    var f = Math.round(35.74 + (0.6215 * tempF) - (35.75 * Math.pow(speed,0.16)) + (0.4275 * tempF * Math.pow(speed,0.16)));
-    return f;
-   }
 
 
   });
