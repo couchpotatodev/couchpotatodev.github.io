@@ -43,3 +43,8 @@ caption{
     box-shadow:5px 5px 8px #628ca6;
 }
 
+thead tr th{
+    background-color: #628ca6;
+    color:white;
+    font-size: 1.2em;
+}

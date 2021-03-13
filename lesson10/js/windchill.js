@@ -15,9 +15,8 @@ function doInputOutput() {
     
    } else
    
-    document.getElementById("windChillheading").style.display = "none"; 
-
-
+    //document.getElementById("windChillheading").style.display = "none"; 
+    document.getElementById('windChill').textContent = "N/A";
     
 
  } //end of function

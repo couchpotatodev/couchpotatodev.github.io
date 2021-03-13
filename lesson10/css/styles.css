@@ -32,7 +32,7 @@
     margin-top: 4em;
 }  
  
-
+/*
   .summary{
     
     width:60%;
@@ -44,6 +44,15 @@
     color: black;
     font-family: 'Montserrat', sans-serif;
   
+ }
+*/
+ .summary{
+    background-color: rgba(255,210,63,1); 
+    padding:1%;
+    margin:0 auto;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    
  }
 
 .summary h4{
@@ -258,3 +267,28 @@ main{
   }
 
 
+/*weather-tables*/
+table{
+    margin:50px auto;
+    border-spacing: 0px;
+    box-shadow: 5px 5px 10px #628ca6;
+    background-color: #e7f0ed;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+td,th {
+    border: 1px solid rgb(216, 213, 213);
+    padding: 10px;
+    text-align: center;
+   
+  }
+
+th{
+    font-size: 2.5em;
+}
+
+td{
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+}  
