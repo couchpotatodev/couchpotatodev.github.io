@@ -25,7 +25,7 @@ fetch(apiURL)
             let z=jsObject.list[i].dt_txt.includes('18:00:00');
                    if (z==true){
                         document.getElementById(`day${ctr+1}`).textContent = dayofweek[d.getDay()];
-                        document.getElementById(`temp${ctr+1}`).textContent = jsObject.list[i].main.temp +''+'F';
+                        document.getElementById(`temp${ctr+1}`).textContent = jsObject.list[i].main.temp;
                        
                     let imgsource = `https://openweathermap.org/img/w/${jsObject.list[i].weather[0].icon}.png`;
                     let description = jsObject.list[i].weather[0].description;
