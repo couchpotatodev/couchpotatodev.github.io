@@ -14,7 +14,7 @@ fetch(apiURL)
   let d;
   const dayofweek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
   
-  oldArray = jsObject.list;
+  //oldArray = jsObject.list;
     
 
 
