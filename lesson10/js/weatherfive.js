@@ -4,14 +4,9 @@ const apiURL = 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&units
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
+   // console.log(jsObject);
 
-   /*current 
-   document.getElementById('humid').textContent = jsObject.list[0].main.humidity;
-    document.getElementById('temp').textContent = jsObject.list[0].main.temp;
-    document.getElementById('maxtemp').textContent = jsObject.list[0].main.temp_max;
-    document.getElementById('windSpeed').textContent = jsObject.list[0].wind.speed;
-*/
+   
 
 
   //5 day
