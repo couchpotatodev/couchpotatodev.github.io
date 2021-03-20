@@ -1,0 +1,142 @@
+@media only screen and (min-width: 768px){
+    .menu{
+      display: flex;
+      }
+   
+      .menu li{
+        display: block;
+        flex: 1 1 auto;
+       }
+
+       .menu a{
+           text-align: center;
+           color:white;
+         
+       }
+
+     .menu li:first-child{
+       display: none;
+       padding:0.5em;   
+       margin: 0 auto;
+    }
+
+ .sunshine{
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+}
+  
+
+
+.summary{
+  background-color: rgba(255,210,63,.7); 
+  width:250px;
+  height:200px;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  padding-top: 1%;
+  padding-left:10px;
+  font-size:1.5em;
+  
+}
+
+.block2 h4{
+  margin-left: 5%;
+}
+
+.icon{
+  width:130px;
+}
+
+main,footer{
+     max-width: 80%;
+     margin:0 auto;
+    }
+
+.block2 h4, .block3 h4 {
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ .block2, .block4{
+      display:block;
+  }
+
+.block4 p{
+  text-align: center;
+}  
+
+.block4 a{
+  font-size: 1px;
+}
+
+.block5 {
+  text-align: center;
+
+}
+
+.motto{
+      font-size: 1.3em;
+  }
+
+footer{
+  border-radius: 8px;
+  }
+
+.menu li:hover {
+    color:black;
+    background-color:white;
+    font-weight: 500; 
+}  
+
+
+
+/*stormcenter */
+
+.containerform{
+  width:740px;
+}
+
+
+
+/*home page*/
+.containercard{
+ /* background-color: yellow;*/
+ display:grid;
+ grid-template-columns: 1fr 1fr;
+ grid-gap:10px;
+}
+
+
+.containercard img{
+  box-shadow: 5px 5px 5px #999;
+  width:100%;
+}
+
+
+.cardimage2{
+  grid-column: 1/2;
+  grid-row:2/3;
+}
+
+/*thanks html*/
+.thanks{
+  width:80%; 
+}
+
+/*gallery html*/
+
+.containergallery{
+  grid-template-columns:1fr 1fr;
+}
+
+ img{
+     justify-items: center;
+ }
+
+ figcaption{
+   width:100%;
+ }
+
+
+}
