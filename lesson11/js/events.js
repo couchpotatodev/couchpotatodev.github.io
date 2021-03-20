@@ -20,7 +20,8 @@ fetch(requestURL)
             prestonevents.textContent = town[i].events;
             preston.appendChild(prestonevents);
           }
-    
+
+/*
        if (town[i].name == "Soda Springs"){
             sodaevents.textContent =  town[i].events;
             soda.appendChild(sodaevents);
@@ -31,7 +32,7 @@ fetch(requestURL)
         fish.appendChild(fishhavenevents);
       }
     
-    
+  */
        
     }   
 
