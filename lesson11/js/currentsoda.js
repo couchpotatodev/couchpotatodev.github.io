@@ -6,10 +6,9 @@ fetch(URL)
    
 
  //current 
-   
+    document.getElementById('weather').textContent = jsObject.weather[0].description;
     document.getElementById('humid').textContent = jsObject.main.humidity;
     document.getElementById('temp').textContent = jsObject.main.temp;
-    document.getElementById('maxtemp').textContent = jsObject.main.temp_max;
     document.getElementById('windSpeed').textContent = jsObject.wind.speed;
 
 
