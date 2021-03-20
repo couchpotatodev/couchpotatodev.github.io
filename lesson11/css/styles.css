@@ -481,15 +481,17 @@ img[data-src] {
   
    }
   
-/*preston*/
-.prestoncard h4{
+/*preston, soda springs*/
+.prestoncard h4, .sodacard h4{
    font-size: 2em;
    font-family: 'Montserrat', sans-serif;
    margin-left: 5%;
 }
 
-.prestoncard p{
+.prestoncard p, .sodacard p{
    margin-left: 5%;
    font-size: 1.2em;
    font-family: 'Lato', sans-serif;
 }
+
+ 
