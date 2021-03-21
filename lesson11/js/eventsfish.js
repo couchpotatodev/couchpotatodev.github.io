@@ -9,13 +9,22 @@ fetch(requestURL)
     const town = jsonObject['towns'];
 
 
-   let fishhavenevents = document.createElement('p');  
+  
+   let ul = document.createElement('ul');
+   fish.appendChild(ul);
+
 
     for (let i = 0; i < town.length; i++ ) { 
              
        if (town[i].name == "Fish Haven"){
-        fishhavenevents.textContent = town[i].events;
-        fish.appendChild(fishhavenevents);
+
+
+        for (let j=0; j<town[i].events.length;j++){
+          let li=document.createElement('li');    
+           li.innerHTML = town[i].events[j];
+           ul.appendChild(li);
+        }
+      
       }
     
   

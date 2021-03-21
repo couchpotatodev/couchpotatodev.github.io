@@ -7,17 +7,25 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  /* temporary checking for valid response and data parsing */
+   /* console.table(jsonObject);  temporary checking for valid response and data parsing */
     const town = jsonObject['towns'];
  
-   let sodaevents = document.createElement('p');  
    
+   let ul = document.createElement('ul');
+   soda.appendChild(ul);
 
     for (let i = 0; i < town.length; i++ ) { 
       
        if (town[i].name == "Soda Springs"){
-            sodaevents.textContent =  town[i].events;
-            soda.appendChild(sodaevents);
+     
+
+           for (let j=0; j<town[i].events.length;j++){
+            let li=document.createElement('li');    
+             li.innerHTML = town[i].events[j];
+             ul.appendChild(li);
+        }
+
+
        }
       
        
