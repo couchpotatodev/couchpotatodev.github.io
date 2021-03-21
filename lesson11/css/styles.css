@@ -487,14 +487,10 @@ img[data-src] {
    margin-left: 5%;
 }
 
-.prestoncard p, .sodacard p, .fishcard p{
-   margin-left: 5%;
-   font-size: 1.2em;
-   font-family: 'Lato', sans-serif;
-}
 
  .prestoncard li, .sodacard li, .fishcard li{
     margin-left:5%; 
-    font-size: 1.1em;
+    font-size: 1.2em;
     color:#4f5665;
+    font-family: 'Lato', sans-serif;
  }
