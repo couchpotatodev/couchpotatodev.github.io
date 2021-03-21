@@ -283,6 +283,7 @@ td{
    padding:1em;
    margin-top: -20px;
    font-family: 'Lato', sans-serif;    
+   color:#4f5665;
 }
 
 
@@ -290,6 +291,7 @@ td{
   margin-bottom: 0;
   padding:1em;
   font-family: 'Montserrat', sans-serif;
+  font-size:2em;
 }
 
 .containercard img{
@@ -306,6 +308,7 @@ td{
 .containercard p{
   font-family: 'Lato', sans-serif;   
   text-align: center; 
+  color:#4f5665;
 }
 
 .heroimage{
