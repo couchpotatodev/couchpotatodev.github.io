@@ -1,0 +1,58 @@
+[
+    {
+      "name": "Tiong San Supermart",
+      "address": "Harrison road",
+      "contact": "09989722771",
+      "logo": "https://cdn.glitch.com/2f44b493-23f2-41ab-b7fd-da756cafdfb7%2Fts.jpg?v=1617699298114",
+      "type": "Grocery",
+      "weblink": "http://tiongsan.com/"
+    },
+    {
+      "name": "Tea Drop",
+      "address": "44-A Ferguson Road",
+      "contact": "09662605881",
+      "logo": "https://cdn.glitch.com/2f44b493-23f2-41ab-b7fd-da756cafdfb7%2Fchamber.jpg?v=1617699256055",
+      "type": "Food",
+      "weblink": "https://www.facebook.com/Teadropmilktea/"
+      },
+      {
+        "name": "Neverland Resort",
+        "address": "Km 12 Lasong, Tadiangan, Asin",
+        "contact": "09338671642",
+        "logo": "https://cdn.glitch.com/2f44b493-23f2-41ab-b7fd-da756cafdfb7%2Fneverland.jpg?v=1617699288364",
+        "type": "Leisure",
+        "weblink": "https://www.facebook.com/NeverlandMountainResort/"
+     },
+     {
+        "name": "MBI Apartments",
+        "address": "80 Leonor Rivera St.",
+        "contact": "09212893019",
+        "logo": "https://cdn.glitch.com/2f44b493-23f2-41ab-b7fd-da756cafdfb7%2Fchamber.jpg?v=1617699256055",
+        "type": "Lodging",
+        "weblink": "https://www.facebook.com/pages/category/Apartment---Condo-Building/Baguio-Transient-MBI-Apartments-297051563781177/"
+     },
+     {
+        "name": "DOC&P Lending",
+        "address": "1-A Dela Cruz Bldg. 280 Magsaysay Avenue",
+        "contact": "09496966340",
+        "logo": "https://cdn.glitch.com/2f44b493-23f2-41ab-b7fd-da756cafdfb7%2Fdocp.jpg?v=1617699267689",
+        "type": "Finances",
+        "weblink": "https://www.facebook.com/pg/Docp-Credit-and-Loans-Services-Inc-246902549147963/about/"
+     },
+     {
+        "name": "96.7 klite",
+        "address": "3 Upper Market-Camp Allen",
+        "contact": "0744427694",
+        "logo": "https://cdn.glitch.com/2f44b493-23f2-41ab-b7fd-da756cafdfb7%2Fklite.png?v=1617699828528",
+        "type": "Communication",
+        "weblink": "https://klite967.com/"
+     },
+     {
+        "name": "Tcy machinery",
+        "address": "Magsaysay avenue",
+        "contact": "0744452253",
+        "logo": "https://cdn.glitch.com/2f44b493-23f2-41ab-b7fd-da756cafdfb7%2Fchamber.jpg?v=1617699256055",
+        "type": "Manufacturing",
+        "weblink": "https://www.facebook.com/pages/category/Hardware-Store/Tcy-Machinery-Works-Corp-Inc-584788688392346/"
+     }
+    ]
