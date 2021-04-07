@@ -226,6 +226,17 @@ textarea {
   margin:2em;
 }
 
+.submitcontact{
+  border-radius: 10px;
+  display:block;
+  margin:0 auto;
+}
+
+.submitcontact:hover{
+  cursor: pointer;
+  background-color: #9fffcb;
+}
+
 /*join*/
 .joinForm section{
   background-color:#9fffcb;
@@ -254,14 +265,15 @@ textarea {
   margin-bottom: 2em;
 }
 
-.joinButton{
+.submitjoin{
   border-radius: 10px;
   display:block;
   margin:0 auto;
 }
 
-.joinButton:hover{
+.submitjoin:hover{
   cursor:pointer;
+  background-color: #9fffcb;
  }
  
 
