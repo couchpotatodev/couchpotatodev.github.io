@@ -162,7 +162,7 @@ footer img{
   border-radius: 10px;
 }
 
-.dateModified{
+.dateModified,footer a{
   color:white;
 }
 
