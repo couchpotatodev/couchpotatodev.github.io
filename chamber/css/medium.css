@@ -109,13 +109,14 @@
   }
 */
 
-#containercard{
+#btnContainer{
     display:flex;
+    justify-content: space-evenly;
 }
 
 #btnContainer button{
    
-    justify-content: space-evenly;
+   
     font-size: 1.3em;
     border-radius: 8px;
 }
