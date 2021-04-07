@@ -249,6 +249,7 @@ textarea {
 .joinButton:hover{
   cursor:pointer;
  }
+ 
  /*
  .levels{
    background-color: #9fffcb;
@@ -262,3 +263,8 @@ textarea {
   .levels a{
     text-decoration: none;
   }*/
+
+  /*directory*/
+  .containercard button{
+    display:none;
+  }
