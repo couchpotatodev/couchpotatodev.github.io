@@ -3,6 +3,7 @@
 
 h1{
   text-align:center;
+  font-family: 'Roboto', sans-serif;
 }
 .sidenav {
   height: 100%;
@@ -12,10 +13,10 @@ h1{
   top: 0;
   right: 0;
   background-color: #25a18e;
-  /*background-color: #00a5cf;*/
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .sidenav a {
@@ -25,7 +26,6 @@ h1{
   color: black;
   display: block;
   transition: 0.3s;
- 
 }
 
 .sidenav li{
@@ -55,12 +55,12 @@ header{
   display:flex;
   justify-content: space-evenly;
   margin:0;  
+  font-family: 'Roboto', sans-serif;
  }
 
 
  .logo{
-  width:50px;
-  
+  width:50px;  
 }
 
 .bar1, .bar2, .bar3 {
@@ -97,6 +97,7 @@ header{
 .welcome{
   text-align: center;
   padding:1em;
+  font-family: 'Roboto', sans-serif;
 }
 
 .welcome button{
@@ -113,6 +114,7 @@ header{
 
 section{
   padding:1em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .baguioMorning,.baguioBurnham{
@@ -128,17 +130,19 @@ h3{
   font-size: 1.2em;
   color:white;
   border-radius: 10px; 
+  font-family: 'Roboto', sans-serif;
 }
 
 td,th {
   border: 1px solid rgb(216, 213, 213);
   padding: 10px;
   text-align: center;
- 
+  font-family: 'Open Sans', sans-serif;
 }
 
 p{
   color:#454a53;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -148,6 +152,7 @@ footer{
   padding:1em;
   line-height: 1.5em;
  text-align: center;
+ font-family: 'Open Sans', sans-serif;
 } 
 
 footer img{
@@ -166,6 +171,7 @@ footer img{
 
 .adverts h4, .adverts p{
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
  table{
@@ -250,19 +256,6 @@ textarea {
   cursor:pointer;
  }
  
- /*
- .levels{
-   background-color: #9fffcb;
-   
- }
-
-  .levels li{
-    list-style-type: none;
-  }
-
-  .levels a{
-    text-decoration: none;
-  }*/
 
   /*directory*/
   .containercard button{
@@ -270,8 +263,7 @@ textarea {
   }
 
   .cards2{
-    /*visibility:hidden;*/
-    display:none;
+       display:none;
  
   } 
 
