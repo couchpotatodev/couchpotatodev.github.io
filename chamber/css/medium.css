@@ -114,10 +114,16 @@
   }
 
   #btnContainer button{
-    cursor:pointer;
-    background-color: #9fffcb; 
+   
     border-radius: 8px;
     margin-top: 10px;
   }
+
+  #btnContainer button:hover{
+    cursor:pointer;
+    background-color: #9fffcb; 
+
+  } 
+ 
 
 } /*end of media query*/    
