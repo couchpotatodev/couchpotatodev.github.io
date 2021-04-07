@@ -10,6 +10,6 @@ document.getElementsByClassName("cards").style.display = "none";
 
 function grid(){
     document.getElementById("gridcards2").style.display = "grid";
-    document.getElementsById("listcards").style.display = "none";
+    document.getElementById("listcards").style.display = "none";
     }
     
