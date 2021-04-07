@@ -111,7 +111,7 @@
 #btnContainer button{
     display:flex;
     justify-content: space-evenly;
-    font-size: 2em;
+    font-size: 1.3em;
     border-radius: 8px;
 }
  
