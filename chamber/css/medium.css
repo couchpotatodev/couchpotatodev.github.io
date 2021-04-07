@@ -104,18 +104,18 @@
   }
 
 /*directory*/
-.containercard button{
+/*.containercard button{
     display:block;
   }
-
-#btnContainer{
+*/
+#btnContainer button{
     display:flex;
     justify-content: space-evenly;
     font-size: 2em;
     border-radius: 8px;
 }
  
-#btnContainer:hover{
+#btnContainer button:hover{
     background-color: #9fffcb;
     cursor: pointer;
 }
