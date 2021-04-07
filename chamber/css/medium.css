@@ -113,6 +113,11 @@
     justify-content: space-evenly;
   }
 
-
+  #btnContainer button{
+    cursor:pointer;
+    background-color: #9fffcb; 
+    border-radius: 8px;
+    margin-top: 10px;
+  }
 
 } /*end of media query*/    
