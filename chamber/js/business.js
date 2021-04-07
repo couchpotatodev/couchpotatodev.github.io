@@ -14,7 +14,7 @@ fetch(requestURL)
 
     for (let i = 0; i < biz.length; i++ ) {
         let card = document.createElement('section');
-      //  let card2 = document.createElement('section');
+        let card2 = document.createElement('section');
         let h3 = document.createElement('h3'); 
         let contactinfo = document.createElement('p');
         //let wlink = document.createElement('p');
