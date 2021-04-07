@@ -23,7 +23,7 @@ fetch(requestURL)
         h3.textContent = biz[i].name;
         contactinfo.textContent = 'Contact Information:' + ' ' + biz[i].contact;
       //  wlink.textContent = 'Website Link:' + ' ' + biz[i].weblink;
-        wlink.textContent = 'Website: ';
+        wlink.textContent = 'Website: ' + <br/>;
         wlink.href = biz[i].weblink;
         clogo.setAttribute('src', biz[i].logo);
         clogo.setAttribute('alt', h3.textContent + 'logo');
