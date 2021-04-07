@@ -12,7 +12,7 @@ var baguioBiz = document.querySelector('.cards');
 
 //const requestURL = 'https://github.com/couchpotatodev/couchpotatodev.github.io/blob/master/json/business.json';
 //const requestURL = 'https://drive.google.com/file/d/1gzIn7sOMiNMN79VD-GL0DSTBc9Ax3cqm/view?usp=sharing';
-const requestURL = '';
+const requestURL = '../chamber/json/business.json';
 var baguioBiz = document.querySelector('.cards');
 fetch(requestURL)
   .then(function (response) {
