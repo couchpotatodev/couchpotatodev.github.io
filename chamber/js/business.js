@@ -33,7 +33,8 @@ fetch(requestURL)
 
         card.appendChild(h3);
         card.appendChild(contactinfo);
-        card.appendChild(clogo+next);
+        card.appendChild(clogo);
+        clogo.appendChild(next);
         //card.appendChild(linebreak);
         card.appendChild(wlink);
         //card.appendChild(linebreak2);
