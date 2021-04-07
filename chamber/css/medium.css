@@ -111,9 +111,15 @@
 #btnContainer{
     display:flex;
     justify-content: space-evenly;
-    align-items: center;
+    font-size: 2em;
+    border-radius: 8px;
 }
  
+#btnContainer:hover{
+    background-color: #9fffcb;
+    cursor: pointer;
+}
+
 
 
 
