@@ -116,5 +116,9 @@
 
  } 
 
+ .gridcards2{
+    display:none;
+ }
+
 
 } /*end of media query*/    
