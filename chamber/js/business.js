@@ -22,7 +22,9 @@ fetch(requestURL)
 
         h3.textContent = biz[i].name;
         contactinfo.textContent = 'Contact Information:' + ' ' + biz[i].contact;
-        wlink.textContent = 'Website Link:' + ' ' + biz[i].weblink;
+      //  wlink.textContent = 'Website Link:' + ' ' + biz[i].weblink;
+        wlink.textContent = biz[i].weblink;
+        wlink.href = biz[i].weblink;
         clogo.setAttribute('src', biz[i].logo);
         clogo.setAttribute('alt', h3.textContent + 'logo');
 
@@ -37,7 +39,10 @@ fetch(requestURL)
         baguioBiz.appendChild(card);  
     }
 
-
+    var link = document.createElement('a');
+    link.textContent = 'Link Title';
+    link.href = 'http://your.domain.tld/some/path';
+    document.getElementById('where_to_insert').appendChild(link);
  
 
 });
