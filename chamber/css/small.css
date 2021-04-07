@@ -268,7 +268,8 @@ textarea {
   .containercard button{
     display:none;
   }
-/*
+
   .cards2{
-    visibility:hidden;
-  } */
+    /*visibility:hidden;*/
+    display:none;
+  } 
