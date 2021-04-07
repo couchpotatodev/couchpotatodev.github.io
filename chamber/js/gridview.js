@@ -6,3 +6,10 @@ document.getElementsByClassName("gridcards2").style.display = "grid";
 document.getElementsByClassName("cards").style.display = "none";
 }
 */
+
+
+function grid(){
+    document.getElementById("gridcards2").style.display = "block";
+    document.getElementsById("listcards").style.display = "none";
+    }
+    
