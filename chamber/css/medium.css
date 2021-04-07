@@ -108,7 +108,7 @@
     display:block;
   }
 
-.btnContainer{
+#btnContainer{
     display:flex;
     justify-content: center;
 }
