@@ -27,7 +27,6 @@ fetch(requestURL)
       //  wlink.textContent = 'Website Link:' + ' ' + biz[i].weblink;     
         clogo.setAttribute('src', biz[i].logo);
         clogo.setAttribute('alt', h3.textContent + 'logo');
-        clogo.appendChild(next);
         wlink.textContent = biz[i].weblink;
         wlink.href = biz[i].weblink;
 
@@ -35,7 +34,7 @@ fetch(requestURL)
         card.appendChild(h3);
         card.appendChild(contactinfo);
         card.appendChild(clogo);
-      /*  clogo.appendChild(next); */
+        card.appendChild(next); 
         //card.appendChild(linebreak);
         card.appendChild(wlink);
         //card.appendChild(linebreak2);
