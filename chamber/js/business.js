@@ -16,14 +16,15 @@ fetch(requestURL)
         let h3 = document.createElement('h3'); 
         let contactinfo = document.createElement('p');
         //let wlink = document.createElement('p');
-        let wlink = document.createElement('a');
         let clogo = document.createElement('img');
+        let wlink = document.createElement('a');
+        
      
 
         h3.textContent = biz[i].name;
         contactinfo.textContent = 'Contact Information:' + ' ' + biz[i].contact;
       //  wlink.textContent = 'Website Link:' + ' ' + biz[i].weblink;
-        wlink.textContent = 'Website:'+ ' ' + biz[i].weblink;
+        wlink.textContent = biz[i].weblink;
         wlink.href = biz[i].weblink;
         clogo.setAttribute('src', biz[i].logo);
         clogo.setAttribute('alt', h3.textContent + 'logo');
@@ -31,10 +32,11 @@ fetch(requestURL)
 
         card.appendChild(h3);
         card.appendChild(contactinfo);
+        card.appendChild(clogo);
         //card.appendChild(linebreak);
         card.appendChild(wlink);
         //card.appendChild(linebreak2);
-        card.appendChild(clogo);
+        
         
         baguioBiz.appendChild(card);  
     }
