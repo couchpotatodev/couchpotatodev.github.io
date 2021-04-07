@@ -5,7 +5,7 @@
 
 function list(){
 document.getElementById("gridcards2").style.display = "none";
-document.getElementsById("listcards").style.display = "block";
+document.getElementById("listcards").style.display = "block";
 }
 
 /*
