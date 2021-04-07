@@ -111,8 +111,10 @@
 
 #btnContainer{
     display:flex;
-    justify-content: space-evenly;
 }
+
+
+ 
 
 #btnContainer button{
    
