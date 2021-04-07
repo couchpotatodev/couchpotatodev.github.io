@@ -15,7 +15,8 @@ fetch(requestURL)
         let card = document.createElement('section');
         let h3 = document.createElement('h3'); 
         let contactinfo = document.createElement('p');
-        let wlink = document.createElement('p');
+        //let wlink = document.createElement('p');
+        let wlink = document.createElement('a');
         let clogo = document.createElement('img');
      
 
