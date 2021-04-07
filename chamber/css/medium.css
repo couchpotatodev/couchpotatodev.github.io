@@ -107,22 +107,7 @@
 .containercard button{
     display:block;
   }
-
-
-
  
-
-#btnContainer button{
-   
-   
-    font-size: 1.3em;
-    border-radius: 8px;
-}
- 
-#btnContainer button:hover{
-    background-color: #9fffcb;
-    cursor: pointer;
-}
 
 
 
