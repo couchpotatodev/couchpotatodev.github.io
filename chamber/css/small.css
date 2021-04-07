@@ -272,4 +272,10 @@ textarea {
   .cards2{
     /*visibility:hidden;*/
     display:none;
+ 
   } 
+
+  .containercard{
+    width:80%;
+    margin:0 auto;
+}
