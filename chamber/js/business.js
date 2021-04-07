@@ -37,9 +37,8 @@ fetch(requestURL)
         card.appendChild(contactinfo);
         card.appendChild(clogo);
         card.appendChild(next); 
-        //card.appendChild(linebreak);
         card.appendChild(wlink);
-        //card.appendChild(linebreak2);
+     
         
         card2.appendChild(h3);
         card2.appendChild(contactinfo);
@@ -49,7 +48,7 @@ fetch(requestURL)
    
         
         baguioBiz.appendChild(card);  
-        baguioBiz2.appendChild(card);
+        baguioBiz2.appendChild(card2);
     }
 
 
