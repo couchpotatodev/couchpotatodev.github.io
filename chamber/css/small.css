@@ -147,6 +147,9 @@ p{
   font-family: 'Open Sans', sans-serif;
 }
 
+.thanks p{
+  font-size: 1.5em;
+}
 
 footer{
   background-color:#004e64;
