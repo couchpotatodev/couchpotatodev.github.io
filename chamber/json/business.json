@@ -1,4 +1,5 @@
-[
+{
+   "businesses":[
     {
       "name": "Tiong San Supermart",
       "address": "Harrison road",
@@ -56,3 +57,4 @@
         "weblink": "https://www.facebook.com/pages/category/Hardware-Store/Tcy-Machinery-Works-Corp-Inc-584788688392346/"
      }
     ]
+}
