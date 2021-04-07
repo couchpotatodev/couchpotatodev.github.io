@@ -104,14 +104,10 @@
   }
 
 /*directory*/
-/*.containercard button{
+.containercard button{
     display:block;
   }
-*/
 
-#btnContainer{
-    display:flex;
-}
 
 
  
