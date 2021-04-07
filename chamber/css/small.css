@@ -207,6 +207,7 @@ footer img{
   background-color:#9fffcb;
   max-width: 350px;
   margin:0 auto;
+  padding:1em;
 }
 
 .contactForm input{
@@ -240,10 +241,11 @@ textarea {
 }
 
 /*join*/
-.joinForm section{
+.joinForm{
   background-color:#9fffcb;
   max-width: 350px;
   margin:0 auto;
+  padding:1em;
 }
 
 .joinForm h4{
