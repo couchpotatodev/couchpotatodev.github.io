@@ -13,6 +13,7 @@ fetch(requestURL)
 
     for (let i = 0; i < biz.length; i++ ) {
         let card = document.createElement('section');
+        let card2 = document.createElement('section');
         let h3 = document.createElement('h3'); 
         let contactinfo = document.createElement('p');
         //let wlink = document.createElement('p');
@@ -39,14 +40,17 @@ fetch(requestURL)
         card.appendChild(wlink);
         //card.appendChild(linebreak2);
         
+        card2.appendChild(h3);
+        card2.appendChild(contactinfo);
+        card2.appendChild(clogo);
+        card2.appendChild(next); 
+        card2.appendChild(wlink);
+   
         
         baguioBiz.appendChild(card);  
+        baguioBiz.appendChild(card2);
     }
 
-   /* var link = document.createElement('a');
-    link.textContent = 'Link Title';
-    link.href = 'http://your.domain.tld/some/path';
-    document.getElementById('where_to_insert').appendChild(link);
- */
+
 
 });
