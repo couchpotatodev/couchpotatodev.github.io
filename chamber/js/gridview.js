@@ -9,7 +9,7 @@ document.getElementsByClassName("cards").style.display = "none";
 
 
 function grid(){
-    document.getElementById("gridcards2").style.display = "block";
+    document.getElementById("gridcards2").style.display = "grid";
     document.getElementsById("listcards").style.display = "none";
     }
     
