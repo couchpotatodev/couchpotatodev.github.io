@@ -241,7 +241,7 @@ textarea {
 }
 
 /*join*/
-.joinForm{
+.joinForm form{
   background-color:#9fffcb;
   max-width: 350px;
   margin:0 auto;
