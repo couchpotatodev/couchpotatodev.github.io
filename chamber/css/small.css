@@ -213,6 +213,8 @@ footer img{
   line-height: 20px;
   padding:10px;
   height:44px;
+  width:250px;
+  margin-bottom: 20px;
 }
 
 textarea {
