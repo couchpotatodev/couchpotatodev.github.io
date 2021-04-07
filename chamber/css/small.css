@@ -220,6 +220,7 @@ footer img{
 textarea {
   width: 200px;
   height: 150px;
+  margin-bottom: 20px;
 }
 
 .block1Contact{
@@ -230,6 +231,7 @@ textarea {
   border-radius: 10px;
   display:block;
   margin:0 auto;
+
 }
 
 .submitcontact:hover{
