@@ -1,0 +1,38 @@
+@media only screen and (min-width: 1024px){
+
+
+.heroimage{
+   display:none;
+}
+
+
+.background{
+    position:relative;
+    width:100%; 
+    height: 100vh;
+    background:url(https://cdn.glitch.com/2f44b493-23f2-41ab-b7fd-da756cafdfb7%2Flanding1024.jpg?v=1617606373490);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+ 
+
+
+.mainHead{
+    background-color:transparent;  
+    position:relative;
+}
+
+
+.block1, .block2{
+    display:block;
+ 
+}
+.upcomingEvents,.about{
+    text-align: center;
+}
+
+
+
+} /*end of media query */

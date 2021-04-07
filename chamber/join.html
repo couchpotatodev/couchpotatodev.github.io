@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../chamber of commerce/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../chamber of commerce/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../chamber of commerce/images/favicon-16x16.png">
+    <link rel="manifest" href="../chamber of commerce/images/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+    <link rel="stylesheet" href="../chamber of commerce/css/small.css" type="text/css">
+    <link rel="stylesheet" href="../chamber of commerce/css/medium.css" type="text/css">
+    <link rel="stylesheet" href="../chamber of commerce/css/large.css" type="text/css">
+</head>
+<body>
+
+   
+    <header>
+    
+        <img class="icon" src="../chamber of commerce/images/logo.jpg" alt="shake hands"><br>
+    
+        <div class="container" onclick="openNav()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>  
+        </div> 
+        <nav>
+           <ul class="mainNav">
+              <li><a href="../chamber of commerce/index.html">About</a></li>
+              <li><a href="../chamber of commerce/city.html" >Baguio</a></li>
+              <li><a href="../chamber of commerce/directory.html">Directory</a></li>
+              <li><a href="../chamber of commerce/contact.html">Contact</a></li>
+              <li><a href="../chamber of commerce/event.html">Events</a></li>    
+             <li><a href="#" class="active">Join</a></li>
+           <ul>  
+        </nav>   
+     
+</header>
+
+   <div id="mySidenav" class="sidenav">
+    <ul>
+     <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+     <li><a href="../chamber of commerce/index.html">About</a></li>
+     <li><a href="../chamber of commerce/city.html">Baguio</a></li>
+     <li><a href="../chamber of commerce/directory.html">Directory</a></li>
+     <li><a href="../chamber of commerce/contact.html">Contact</a></li>
+     <li><a href="../chamber of commerce/event.html">Events</a></li>    
+     <li><a href="#">Join</a></li>
+   <ul>  
+   </div>
+   <h1>Join Us</h1>
+   <div class="joinForm">
+   <h4>Becoming a member of the Baguio Chamber of Commerce and Industry is simple. Just fill out our member registration form below and a chamber staff will follow up with you. </h4>
+   <section>
+    <form action="#">
+     <label for="titleName">Enter First Name:</label><br>
+     <input type="text" id="titleName" name="titleName" pattern="[A-Za-z]" placeholder="Indicate title"><br>
+     
+     <label for="fname">Enter First Name:</label><br>
+     <input type="text" id="fname" name="fname" pattern="[A-Za-z]" placeholder="Type first name" required><br>
+
+     <label for="lname">Enter First Name:</label><br>
+     <input type="text" id="lname" name="lname" pattern="[A-Za-z]" placeholder="Type last name" required><br>
+
+     <label for="phone">Enter your phone number:</label><br>
+     <input type="tel" id="phone" name="phone" title="Use numbers" placeholder="Enter 10 digit phone number"  pattern="[0-9]{10}"><br>  
+
+     <label for="email">Enter your email:</label><br>
+     <input type="email" id="email" name="email" placeholder="example@google.com" pattern="[^@\s]+@[^@\s]+" title="Invalid email address" required><br>
+
+     <label for="bname">Enter Business Name:</label><br>
+     <input type="text" id="bname" name="bname" pattern="[A-Za-z]" placeholder="Type your business name" required><br>
+
+     <label for="baddress">Enter Business Name:</label><br>
+     <input type="text" id="baddress" name="baddress" pattern="[A-Za-z]" placeholder="Type your business address"><br>
+     
+     <label for="url">Enter Business Website:</label><br>
+     <input type="url" id="url" name="url" pattern="https://.*" placeholder="https://businessname.com"><br>
+
+     <label for="bdescription">Enter Business Name:</label><br>
+     <input type="text" id="bdescription" name="bdescription" pattern="[A-Za-z]" placeholder="Type business description"><br>
+
+     <label for="membership">Membership Level:</label><br>
+     <select name="membership" id="membership">
+       <option value="" selected disabled hidden>Select type</option> 
+       <option value="nonprofit">Non-profit ($100)</option>
+       <option value="bronze">Bronze ($200)</option>
+       <option value="silver">Silver ($400)</option>
+       <option value="gold">Gold ($1000)</option>
+     </select><br>
+
+      <button type="button" class="joinButton" onclick="alert('Hello world!')">Submit application</button>
+    </form>
+    
+    </section>
+   </div><!--end of joinform-->
+
+   <section>
+       <h3>Membership Levels and Benefits</h3>
+  
+    <!--  <div class="levels">
+       <ul>
+        <li><a href="#nonprofitlevel">Non-profit</a></li>
+        <li><a href="#bronzelevel">Bronze</a></li>
+        <li><a href="#silverlevel">Silver</a></li>
+        <li><a href="#goldlevel">Gold</a></li>
+       </ul>
+      </div>
+    -->
+   </section>
+
+   <section id="nonprofitlevel">
+        <h4>Non-profit</h4>
+        <h5>$100 / year</h5>
+        <h5>Visibility</h5>
+        
+        <ul>
+            <li>Business name and description, website, and social media links on our website directory</li>
+            <li>Invitation to participate in Annual Business Expo</li>
+            <li>Half price on standard booth rates at Chamber events</li>
+            <li>Membership certificate, window sticker, and digital chamber member artwork rights</li>
+            <li>Welcome in Chamber’s e-newsletter and on Facebook page</li>
+            <li>Post your events on the Chamber’s calendar of activities</li>
+        </ul>
+
+        <h5>Connections</h5>
+        <ul>
+            <li>More than 100 annual events where you can interact with other members</li>
+            <li>Invitation to a new member event in your first year</li>
+            <li>Quarterly multi-chamber events where you can network with members from other regional chambers</li>
+            <li>Invitation to quarterly meeting with local city officials</li>   
+        </ul>
+
+        <h5>Resources</h5>
+        <ul>
+            <li>Member rates for all Chamber events for your representative</li>
+            <li>Monthly e-newsletter with Chamber events and community news</li>
+            <li>Advocacy for business interests at local, regional, and nationwide levels</li>
+            <li>Referrals from Chamber staff and volunteers</li>
+            <li>Eligible to participate in leads groups (subject to group requirements)</li>
+        </ul>
+   </section><hr>
+   
+   <section id="bronzelevel">
+    <h4>Bronze</h4>
+    <h5>$200 / year</h5>
+    <h5>Additional benefits include</h5>
+   
+    <ul>
+        <li>Ribbon-Cutting or grand opening event promotion and assistance</li>
+        <li>Eligible to host Business After Hours events and sponsor other signature Chamber events</li>
+        <li>Eligible to place ads in the e-newsletter</li>
+        <li>List “Hot Deals” on Chamber website</li>
+        <li>List “Job Openings” on Chamber website</li>
+        <li>Meeting with Chamber staff to strategize around Chamber resources and opportunities</li>
+        <li>One-time use email list or mailing labels for your marketing purposes</li>
+        <li>Free inclusion of your marketing materials in newsletter</li>
+    </ul>
+
+   </section><hr>
+
+   <section id="silverlevel">
+    <h4>Silver</h4>
+    <h5>$400 / year</h5>
+    <h5>Additional benefits include</h5>
+   
+    <ul>
+        <li>Featured once annually on Chamber Facebook page, boosted to 20,000+ viewers in surrounding area</li>
+        <li>Free table at annual Business Expo</li>
+        <li>Ten free tickets to Annual Awards event</li>
+        <li>Plaque recognizing Gold Investor Level, appropriate for office or retail display</li>
+        <li>Free standard booth at Chamber events</li>
+    </ul>
+
+   </section><hr>
+
+   <section id="goldlevel">
+    <h4>Gold</h4>
+    <h5>$1000 / year</h5>
+    <h5>Additional benefits include</h5>
+   
+    <ul>
+        <li>Company logo featured in annual ad in BaguioBiz</li>
+        <li>Plaque recognizing Platinum Investor Level, appropriate for office or retail display</li>
+        <li>Twenty free tickets to Annual Awards event</li>
+        <li>Annual feature in Chamber’s e-newsletter</li>
+        <li>Logo appears on Chamber website home page, banners</li>
+        <li>Annual meeting with Executive Director and Board Officer</li>
+        <li>Digital “Premium Member” digital artwork for advertising</li>
+        <li>Opportunity to present one award at the Annual Awards event</li>
+        <li>Free PREMIUM booth at Chamber events</li>
+        <li>First crack at sponsorships for Chamber’s signature events</li>
+        <li>Featured once annually on Chamber Facebook page, boosted to 50,000+ viewers in the surrounding area</li>
+    </ul>
+
+   </section>
+
+    <footer>    
+      <div class="copyright"> &copy; Baguio Chamber of Commerce and Industry<br>
+      Gov. Pack Road, Baguio City, Philippines<br>
+      &#9742; (074) 446-6796</div>
+      <div>
+      <a href="http://www.facebook.com" target="_blank"><img src="https://cdn.glitch.com/f2ad9062-5310-4545-8876-cf694392fe7c%2Ffacebook%20icon.png?v=1588818515335" alt="Facebook icon"></a>
+      <a href="http://www.instagram.com" target="_blank"><img src="https://cdn.glitch.com/f2ad9062-5310-4545-8876-cf694392fe7c%2Finstagram%20icon.png?v=1588818530460" alt="Instagram icon"></a>
+      </div>  
+      
+        <script src="../chamber of commerce/js/openClose.js"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="../chamber of commerce/js/webfont.js"></script> 
+    </footer>
+</body>
+</html>

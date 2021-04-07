@@ -1,0 +1,107 @@
+@media only screen and (min-width: 768px){
+.mainNav{
+    display:flex; 
+       }
+    
+.mainNav li{
+    list-style-type: none;
+  
+}   
+
+.mainNav .active{
+    color:#9fffcb;
+}
+
+
+
+.mainNav li a{
+    text-decoration: none;
+    color:white;
+    padding:1em;
+    font-size: 1.5em;
+   
+}
+
+.mainNav li:after{
+    display:block;
+    content:'';
+    border-bottom: solid 3px #f4f4f4;
+    transform: scaleX(0);
+    transition: all 250ms ease-in-out;
+  }
+
+
+.mainNav li:hover:after { 
+     transform:scaleX(.7); 
+    }
+
+
+.container{
+    display:none;
+}
+
+.heroimage{
+    position:relative;
+}
+
+.welcome {
+        margin: 0;
+        position: absolute;
+        color:white;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) }
+
+ .block1, .block2{
+     display:flex;
+     align-items: center;
+   
+ }
+
+.join,.weather,.adverts h3{
+    text-align: center;
+}
+
+ 
+ .block3{
+     display:flex;
+     align-items: center;
+     justify-content: space-evenly;
+ }
+
+ footer{
+     display:flex;
+     justify-content: space-between;
+ }
+
+ .forecast h4{
+     text-align: center;
+ }
+
+/*city*/
+.citySection img{
+    
+    width:100%;
+    
+  }
+
+ .cityActivities{
+     display:grid;
+     grid-template-columns:repeat(auto-fill,minmax(350px,1fr));
+     grid-gap:1.5em;
+ } 
+
+/*contact*/
+ .block1Contact{
+     display:flex;
+    justify-content: space-evenly ;
+ }
+
+ textarea {
+    width: 300px;
+    height: 150px;
+  }
+
+
+} /*end of media query*/    
