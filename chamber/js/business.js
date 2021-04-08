@@ -9,7 +9,7 @@ fetch(requestURL)
   })
 
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
+   /* console.table(jsonObject);  */
     const biz = jsonObject['businesses']; 
 
     for (let i = 0; i < biz.length; i++ ) {

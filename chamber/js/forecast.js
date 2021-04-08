@@ -6,9 +6,6 @@ fetch(apiURL)
   .then((jsObject) => {
   // console.log(jsObject);
 
-   
-
-
   //3 day
   let ctr=0;
   let d;
@@ -35,10 +32,5 @@ fetch(apiURL)
                         
                     }
   }
- 
-
- 
-
- 
 
 });    

@@ -6,7 +6,7 @@ fetch(URL)
     document.getElementById('humid').textContent = jsObject.main.humidity;
     document.getElementById('temp').textContent = jsObject.main.temp;
     document.getElementById('weather').textContent = jsObject.weather[0].description;
- //   document.getElementById('windSpeed').textContent = jsObject.wind.speed;
+
 
   });
 
